@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #222;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+}
+
+.container h1 {
+  color: #fefefe;
+  font-family: sans-serif;
+  margin: 50px 0;
+}
+
+.form-wrap {
+  width: 35%;
+  background: #fefefe;
+}
+
+.form-wrap form {
+  padding: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.form-wrap form label {
+  color: #222222;
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+
+.form-wrap form input {
+  padding: 10px 10px;
+}
+
+.form-wrap form button {
+  padding: 10px 20px;
+  border: none;
+  color: #fefefe;
+  background: #212121;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.users .cards {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 21%;
+          flex: 1 0 21%;
+  margin: 50px 50px;
+  background: #fefefe;
+  -webkit-box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.226);
+          box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.226);
+  padding: 20px 20px;
+  border-radius: 3px;
+}
+
+.users .cards span {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.users .cards div {
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+.users .cards button {
+  padding: 10px 20px;
+  border: none;
+  color: #fefefe;
+  background: #212121;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */
